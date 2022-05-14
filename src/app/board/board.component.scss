@@ -2,9 +2,18 @@ main {
   display: grid;
   grid-template-columns: 200px 200px 200px;
   grid-gap: 0px;
+  justify-content: center;
 }
 
 app-square {
   border: 1px gray solid;
   height: 200px;
+  font-size: 100%;
+}
+
+div.head{
+  display: grid;
+  justify-content: center;
+  margin-bottom: 2%;
+  text-align: center;
 }
